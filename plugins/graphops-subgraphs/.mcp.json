@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "graphops-subgraphs": {
+      "type": "http",
+      "url": "https://subgraphs.graphops.xyz/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.subgraphs_api_key}"
+      }
+    }
+  }
+}

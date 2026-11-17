@@ -1,0 +1,28 @@
+{
+  "name": "graphops-substreams",
+  "displayName": "GraphOps Substreams",
+  "version": "1.0.0+b5a2be1e01e3",
+  "description": "Stream ordered blockchain data with GraphOps Substreams: run packages, backfill block ranges and build sinks that resume from cursors and handle reorgs.",
+  "author": {
+    "name": "GraphOps",
+    "url": "https://graphops.xyz"
+  },
+  "homepage": "https://docs.graphops.xyz/ai-agents",
+  "repository": "https://github.com/graphops/claude-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "substreams",
+    "streaming",
+    "indexing",
+    "firehose"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://docs.graphops.xyz/ai-agents",
+  "supportUrl": "https://graphops.xyz/contact/",
+  "privacyPolicyUrl": "https://graphops.xyz/privacy-policy/",
+  "termsOfServiceUrl": "https://graphops.xyz/terms-of-service/",
+  "dependencies": [
+    "graphops"
+  ]
+}

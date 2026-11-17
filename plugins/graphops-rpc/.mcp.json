@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "graphops-rpc": {
+      "type": "http",
+      "url": "https://rpc.graphops.xyz/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.rpc_api_key}"
+      }
+    }
+  }
+}

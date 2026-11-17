@@ -1,0 +1,26 @@
+{
+  "name": "graphops",
+  "displayName": "GraphOps",
+  "version": "1.0.0+efc8a96878e8",
+  "description": "Choose between GraphOps RPC, Subgraphs and Substreams, handle GraphOps API keys and error codes, and search the GraphOps documentation through its MCP server.",
+  "author": {
+    "name": "GraphOps",
+    "url": "https://graphops.xyz"
+  },
+  "homepage": "https://docs.graphops.xyz/ai-agents",
+  "repository": "https://github.com/graphops/claude-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "onchain-data",
+    "rpc",
+    "subgraphs",
+    "substreams",
+    "documentation"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://docs.graphops.xyz/ai-agents",
+  "supportUrl": "https://graphops.xyz/contact/",
+  "privacyPolicyUrl": "https://graphops.xyz/privacy-policy/",
+  "termsOfServiceUrl": "https://graphops.xyz/terms-of-service/"
+}

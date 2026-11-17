@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "graphops-docs": {
+      "type": "http",
+      "url": "https://docs.graphops.xyz/api/mcp"
+    }
+  }
+}

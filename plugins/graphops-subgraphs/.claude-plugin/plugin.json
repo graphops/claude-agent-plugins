@@ -1,0 +1,37 @@
+{
+  "name": "graphops-subgraphs",
+  "displayName": "GraphOps Subgraphs",
+  "version": "1.0.0+8646ed6f2b93",
+  "description": "Query indexed blockchain entities with GraphOps Subgraphs: read schemas, freshness and query results through the Subgraphs MCP server, and write paginated GraphQL code.",
+  "author": {
+    "name": "GraphOps",
+    "url": "https://graphops.xyz"
+  },
+  "homepage": "https://docs.graphops.xyz/ai-agents",
+  "repository": "https://github.com/graphops/claude-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "subgraphs",
+    "graphql",
+    "the-graph",
+    "indexing"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://docs.graphops.xyz/ai-agents",
+  "supportUrl": "https://graphops.xyz/contact/",
+  "privacyPolicyUrl": "https://graphops.xyz/privacy-policy/",
+  "termsOfServiceUrl": "https://graphops.xyz/terms-of-service/",
+  "dependencies": [
+    "graphops"
+  ],
+  "userConfig": {
+    "subgraphs_api_key": {
+      "type": "string",
+      "title": "GraphOps Subgraphs API key",
+      "description": "A Subgraphs key from API keys in the GraphOps platform. It is stored in your system's credential store and sent only to the GraphOps Subgraphs MCP server.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

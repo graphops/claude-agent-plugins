@@ -1,0 +1,38 @@
+{
+  "name": "graphops-rpc",
+  "displayName": "GraphOps RPC",
+  "version": "1.0.0+548e89f326e0",
+  "description": "Read EVM and Bitcoin chain data with GraphOps RPC: query blocks, balances, contract calls and event logs through the RPC MCP server, and write bounded, recoverable JSON-RPC code.",
+  "author": {
+    "name": "GraphOps",
+    "url": "https://graphops.xyz"
+  },
+  "homepage": "https://docs.graphops.xyz/ai-agents",
+  "repository": "https://github.com/graphops/claude-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "rpc",
+    "json-rpc",
+    "ethereum",
+    "evm",
+    "bitcoin"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://docs.graphops.xyz/ai-agents",
+  "supportUrl": "https://graphops.xyz/contact/",
+  "privacyPolicyUrl": "https://graphops.xyz/privacy-policy/",
+  "termsOfServiceUrl": "https://graphops.xyz/terms-of-service/",
+  "dependencies": [
+    "graphops"
+  ],
+  "userConfig": {
+    "rpc_api_key": {
+      "type": "string",
+      "title": "GraphOps RPC API key",
+      "description": "A RPC key from API keys in the GraphOps platform. It is stored in your system's credential store and sent only to the GraphOps RPC MCP server.",
+      "required": true,
+      "sensitive": true
+    }
+  }
+}

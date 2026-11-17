@@ -1,0 +1,28 @@
+{
+  "name": "graphops-platform",
+  "displayName": "GraphOps Platform",
+  "version": "1.0.0+036449c9a3bd",
+  "description": "Deploy, stage, promote and check Managed Subgraphs and create Substreams keys with the GraphOps CLI, signed in as you and approved in your browser.",
+  "author": {
+    "name": "GraphOps",
+    "url": "https://graphops.xyz"
+  },
+  "homepage": "https://docs.graphops.xyz/ai-agents",
+  "repository": "https://github.com/graphops/claude-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "subgraphs",
+    "deployment",
+    "cli",
+    "graph-cli"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://docs.graphops.xyz/ai-agents",
+  "supportUrl": "https://graphops.xyz/contact/",
+  "privacyPolicyUrl": "https://graphops.xyz/privacy-policy/",
+  "termsOfServiceUrl": "https://graphops.xyz/terms-of-service/",
+  "dependencies": [
+    "graphops"
+  ]
+}
