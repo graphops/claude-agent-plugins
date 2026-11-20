@@ -1,7 +1,7 @@
 {
   "name": "graphops-subgraphs",
   "displayName": "GraphOps Subgraphs",
-  "version": "1.0.0+8646ed6f2b93",
+  "version": "1.0.1+50fc9e6e77d1",
   "description": "Query indexed blockchain entities with GraphOps Subgraphs: read schemas, freshness and query results through the Subgraphs MCP server, and write paginated GraphQL code.",
   "author": {
     "name": "GraphOps",
@@ -28,8 +28,8 @@
   "userConfig": {
     "subgraphs_api_key": {
       "type": "string",
-      "title": "GraphOps Subgraphs API key",
-      "description": "A Subgraphs key from API keys in the GraphOps platform. It is stored in your system's credential store and sent only to the GraphOps Subgraphs MCP server.",
+      "title": "GraphOps API key",
+      "description": "A GraphOps query key that includes Subgraphs, without limits on networks or Subgraphs, from API keys in the GraphOps platform. It is stored in your system's credential store and sent only to the GraphOps Subgraphs MCP server.",
       "required": true,
       "sensitive": true
     }

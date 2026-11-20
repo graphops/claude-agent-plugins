@@ -1,7 +1,7 @@
 {
   "name": "graphops-substreams",
   "displayName": "GraphOps Substreams",
-  "version": "1.0.0+b5a2be1e01e3",
+  "version": "1.0.1+cd5964c51194",
   "description": "Stream ordered blockchain data with GraphOps Substreams: run packages, backfill block ranges and build sinks that resume from cursors and handle reorgs.",
   "author": {
     "name": "GraphOps",

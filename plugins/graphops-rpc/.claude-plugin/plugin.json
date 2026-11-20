@@ -1,7 +1,7 @@
 {
   "name": "graphops-rpc",
   "displayName": "GraphOps RPC",
-  "version": "1.0.0+548e89f326e0",
+  "version": "1.0.1+02f5f797f6ea",
   "description": "Read EVM and Bitcoin chain data with GraphOps RPC: query blocks, balances, contract calls and event logs through the RPC MCP server, and write bounded, recoverable JSON-RPC code.",
   "author": {
     "name": "GraphOps",
@@ -29,8 +29,8 @@
   "userConfig": {
     "rpc_api_key": {
       "type": "string",
-      "title": "GraphOps RPC API key",
-      "description": "A RPC key from API keys in the GraphOps platform. It is stored in your system's credential store and sent only to the GraphOps RPC MCP server.",
+      "title": "GraphOps API key",
+      "description": "A GraphOps query key that includes RPC, without limits on networks or Subgraphs, from API keys in the GraphOps platform. It is stored in your system's credential store and sent only to the GraphOps RPC MCP server.",
       "required": true,
       "sensitive": true
     }

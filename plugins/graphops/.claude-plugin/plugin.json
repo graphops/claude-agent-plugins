@@ -1,7 +1,7 @@
 {
   "name": "graphops",
   "displayName": "GraphOps",
-  "version": "1.0.0+efc8a96878e8",
+  "version": "1.0.1+d283384ba0a4",
   "description": "Choose between GraphOps RPC, Subgraphs and Substreams, handle GraphOps API keys and error codes, and search the GraphOps documentation through its MCP server.",
   "author": {
     "name": "GraphOps",

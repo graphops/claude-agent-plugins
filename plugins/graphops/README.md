@@ -13,7 +13,7 @@ Choose between GraphOps RPC, Subgraphs and Substreams, handle GraphOps API keys 
 
 This plugin needs no API key. The docs MCP server searches and reads the GraphOps documentation, explains error codes and lists supported networks.
 
-Install a service plugin as well for the data service your project uses: `graphops-rpc`, `graphops-subgraphs` or `graphops-substreams`. Install `graphops-platform` to manage Managed Subgraphs and keys with the GraphOps CLI.
+Install a service plugin as well for the data service your project uses: `graphops-rpc`, `graphops-subgraphs` or `graphops-substreams`. Install `graphops-platform` to manage Managed Subgraphs, Endpoint Aliases and API keys with the GraphOps CLI.
 
 ## Contents
 

@@ -1,8 +1,8 @@
 {
   "name": "graphops-platform",
   "displayName": "GraphOps Platform",
-  "version": "1.0.0+036449c9a3bd",
-  "description": "Deploy, stage, promote and check Managed Subgraphs and create Substreams keys with the GraphOps CLI, signed in as you and approved in your browser.",
+  "version": "1.0.1+cfa16d607b2e",
+  "description": "Deploy and promote Managed Subgraphs, manage Endpoint Aliases, API keys and service accounts, read usage and credits, and run code with stored API keys, through the GraphOps CLI signed in as you.",
   "author": {
     "name": "GraphOps",
     "url": "https://graphops.xyz"
@@ -14,8 +14,8 @@
     "blockchain",
     "subgraphs",
     "deployment",
-    "cli",
-    "graph-cli"
+    "api-keys",
+    "cli"
   ],
   "icon": "./icon.png",
   "documentationUrl": "https://docs.graphops.xyz/ai-agents",
